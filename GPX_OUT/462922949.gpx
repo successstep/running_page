@@ -1,0 +1,44 @@
+<gpx xmlns:ns3="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns2="http://www.garmin.com/xmlschemas/GpxExtensions/v3" creator="Garmin Connect" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/11.xsd">
+  <extensions>
+<distance>10.0</distance>
+<average_hr>0.0</average_hr>
+<average_speed>1.1111111111111112</average_speed>
+<start_time>2019-05-30T09:52:06+00:00</start_time>
+<end_time>2019-05-30T09:52:15+00:00</end_time>
+<moving_time>8.0</moving_time>
+<elapsed_time>9.0</elapsed_time>
+</extensions>
+<metadata>
+    <link href="connect.garmin.com">
+      <text>Garmin Connect</text>
+    </link>
+    <time>2019-05-30T09:52:06.000Z</time>
+  </metadata>
+  <trk>
+    <name>杭州市 跑步</name>
+    <type>running</type>
+    <trkseg>
+      <trkpt lat="30.18025967292487621307373046875" lon="120.2167205326259136199951171875">
+        <ele>7.80000019073486328125</ele>
+        <time>2019-05-30T09:52:06.000Z</time>
+        <extensions>
+          <ns3:TrackPointExtension/>
+        </extensions>
+      </trkpt>
+      <trkpt lat="30.180221535265445709228515625" lon="120.21662137471139430999755859375">
+        <ele>7.80000019073486328125</ele>
+        <time>2019-05-30T09:52:14.000Z</time>
+        <extensions>
+          <ns3:TrackPointExtension/>
+        </extensions>
+      </trkpt>
+      <trkpt lat="30.180221535265445709228515625" lon="120.21662137471139430999755859375">
+        <ele>7.80000019073486328125</ele>
+        <time>2019-05-30T09:52:15.000Z</time>
+        <extensions>
+          <ns3:TrackPointExtension/>
+        </extensions>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
