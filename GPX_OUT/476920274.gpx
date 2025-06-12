@@ -1,0 +1,53 @@
+<gpx xmlns:ns3="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns2="http://www.garmin.com/xmlschemas/GpxExtensions/v3" creator="Garmin Connect" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/11.xsd">
+  <extensions>
+<distance>2444.61</distance>
+<average_hr>91.0</average_hr>
+<average_speed>0.32899999618530273</average_speed>
+<start_time>2025-05-12T11:05:22+00:00</start_time>
+<end_time>2025-05-12T13:09:05.973000+00:00</end_time>
+<moving_time>1598.501</moving_time>
+<elapsed_time>7423.973</elapsed_time>
+</extensions>
+<metadata>
+    <link href="connect.garmin.com">
+      <text>Garmin Connect</text>
+    </link>
+    <time>2025-05-12T11:05:22.000Z</time>
+  </metadata>
+  <trk>
+    <name>杭州市 徒步</name>
+    <type>hiking</type>
+    <trkseg>
+      <trkpt lat="30.13168084435164928436279296875" lon="120.07940559647977352142333984375">
+        <ele>10.80000019073486328125</ele>
+        <time>2025-05-12T13:09:02.000Z</time>
+        <extensions>
+          <ns3:TrackPointExtension>
+            <ns3:hr>90</ns3:hr>
+            <ns3:cad>0</ns3:cad>
+          </ns3:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="30.1316629908978939056396484375" lon="120.079426802694797515869140625">
+        <ele>10.80000019073486328125</ele>
+        <time>2025-05-12T13:09:04.000Z</time>
+        <extensions>
+          <ns3:TrackPointExtension>
+            <ns3:hr>90</ns3:hr>
+            <ns3:cad>0</ns3:cad>
+          </ns3:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="30.1316646672785282135009765625" lon="120.0794182531535625457763671875">
+        <ele>11.19999980926513671875</ele>
+        <time>2025-05-12T13:09:06.000Z</time>
+        <extensions>
+          <ns3:TrackPointExtension>
+            <ns3:hr>90</ns3:hr>
+            <ns3:cad>0</ns3:cad>
+          </ns3:TrackPointExtension>
+        </extensions>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
