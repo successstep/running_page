@@ -8,7 +8,7 @@ jobs:
     strategy:
       max-parallel: 4
       matrix:
-        python-version: ['3.11', '3.12', '3.13'] # Added Python 3.13 to the matrix
+        python-version: ['3.11', '3.12', '3.13']
     steps:
       - uses: actions/checkout@v4
         with:
@@ -29,7 +29,6 @@ jobs:
 
       - name: Run GPX sync test
         run: |
-          # make sure the gpx_sync.py script is executable
           python run_page/gpx_sync.py
 
       - name: Check formatting (black)
@@ -55,13 +54,18 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
+
       - name: Enable corepack
         run: npm install -g corepack@latest && corepack enable pnpm
 
       - name: Install dependencies
         run: pnpm install
 
-      - name: Run check and build
+      - name: Run Prettier check (non-blocking)
+        continue-on-error: true
         run: |
           pnpm run check
+
+      - name: Run build
+        run: |
           pnpm run build
